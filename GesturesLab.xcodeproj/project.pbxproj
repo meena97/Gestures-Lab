@@ -14,6 +14,7 @@
 		21C1A05C1D25890D001CF396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C1A05A1D25890D001CF396 /* LaunchScreen.storyboard */; };
 		21C1A0671D25890D001CF396 /* GesturesLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C1A0661D25890D001CF396 /* GesturesLabTests.swift */; };
 		21C1A0721D25890D001CF396 /* GesturesLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C1A0711D25890D001CF396 /* GesturesLabUITests.swift */; };
+		21C1A0811D258988001CF396 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C1A0801D258988001CF396 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		21C1A06D1D25890D001CF396 /* GesturesLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C1A0711D25890D001CF396 /* GesturesLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesLabUITests.swift; sourceTree = "<group>"; };
 		21C1A0731D25890D001CF396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21C1A0801D258988001CF396 /* CanvasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		21C1A0501D25890D001CF396 /* GesturesLab */ = {
 			isa = PBXGroup;
 			children = (
+				21C1A07F1D25896F001CF396 /* ViewControllers */,
 				21C1A0511D25890D001CF396 /* AppDelegate.swift */,
 				21C1A0531D25890D001CF396 /* ViewController.swift */,
 				21C1A0551D25890D001CF396 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				21C1A0731D25890D001CF396 /* Info.plist */,
 			);
 			path = GesturesLabUITests;
+			sourceTree = "<group>";
+		};
+		21C1A07F1D25896F001CF396 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				21C1A0801D258988001CF396 /* CanvasViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C1A0541D25890D001CF396 /* ViewController.swift in Sources */,
+				21C1A0811D258988001CF396 /* CanvasViewController.swift in Sources */,
 				21C1A0521D25890D001CF396 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
